@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контрольный срез2 </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="settings">
+             <span>Цвет<input type="color" id='color'> </span>
+             <span>Толщина кисти <input type="number" min="0" max="30" value='5' id='range'> </span> 
+            <img data-type='brush' id='brush' src="./img/brush.png" width="40px" height="40px" alt="brush">
+            <img data-type='line' id='line' src="./img/line.svg" width="40px" height="40px" alt="line">
+            <img data-type='rectangle' id='rectangle' src="./img/rectangle.svg" width="40px" height="40px" alt="rectangle">
+            <img data-type='ellipse' id='ellipse' src="./img/ellipse.svg" width="40px" height="40px" alt="ellipse">    
+        </div>
+        <canvas id='canvas' width="1080px" height="500px"></canvas>
+        
+    </div>
+    
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>
